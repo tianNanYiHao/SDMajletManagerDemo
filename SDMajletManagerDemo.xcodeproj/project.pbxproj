@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2804B0971EDE8CE20031CD10 /* SDMajletCellHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804B0961EDE8CE20031CD10 /* SDMajletCellHead.m */; };
 		28DF33E61ED816B7009C4344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF33E51ED816B7009C4344 /* main.m */; };
 		28DF33E91ED816B7009C4344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF33E81ED816B7009C4344 /* AppDelegate.m */; };
 		28DF33EC1ED816B7009C4344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF33EB1ED816B7009C4344 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		28DF33F41ED816B7009C4344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DF33F21ED816B7009C4344 /* LaunchScreen.storyboard */; };
 		28DF33FF1ED816B7009C4344 /* SDMajletManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF33FE1ED816B7009C4344 /* SDMajletManagerDemoTests.m */; };
 		28DF340A1ED816B7009C4344 /* SDMajletManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF34091ED816B7009C4344 /* SDMajletManagerDemoUITests.m */; };
+		28DF341A1ED819E4009C4344 /* SDMajletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF34191ED819E4009C4344 /* SDMajletView.m */; };
+		28DF341D1ED91BFA009C4344 /* SDMajletCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF341C1ED91BFA009C4344 /* SDMajletCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2804B0951EDE8CE20031CD10 /* SDMajletCellHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMajletCellHead.h; sourceTree = "<group>"; };
+		2804B0961EDE8CE20031CD10 /* SDMajletCellHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMajletCellHead.m; sourceTree = "<group>"; };
 		28DF33E11ED816B7009C4344 /* SDMajletManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDMajletManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DF33E51ED816B7009C4344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28DF33E71ED816B7009C4344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		28DF34051ED816B7009C4344 /* SDMajletManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDMajletManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DF34091ED816B7009C4344 /* SDMajletManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDMajletManagerDemoUITests.m; sourceTree = "<group>"; };
 		28DF340B1ED816B7009C4344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DF34181ED819E4009C4344 /* SDMajletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMajletView.h; sourceTree = "<group>"; };
+		28DF34191ED819E4009C4344 /* SDMajletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMajletView.m; sourceTree = "<group>"; };
+		28DF341B1ED91BFA009C4344 /* SDMajletCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMajletCell.h; sourceTree = "<group>"; };
+		28DF341C1ED91BFA009C4344 /* SDMajletCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMajletCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		28DF33E31ED816B7009C4344 /* SDMajletManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				28DF34171ED816F2009C4344 /* SDMajletManager */,
 				28DF33E71ED816B7009C4344 /* AppDelegate.h */,
 				28DF33E81ED816B7009C4344 /* AppDelegate.m */,
 				28DF33EA1ED816B7009C4344 /* ViewController.h */,
@@ -138,6 +148,19 @@
 				28DF340B1ED816B7009C4344 /* Info.plist */,
 			);
 			path = SDMajletManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		28DF34171ED816F2009C4344 /* SDMajletManager */ = {
+			isa = PBXGroup;
+			children = (
+				28DF34181ED819E4009C4344 /* SDMajletView.h */,
+				28DF34191ED819E4009C4344 /* SDMajletView.m */,
+				28DF341B1ED91BFA009C4344 /* SDMajletCell.h */,
+				28DF341C1ED91BFA009C4344 /* SDMajletCell.m */,
+				2804B0951EDE8CE20031CD10 /* SDMajletCellHead.h */,
+				2804B0961EDE8CE20031CD10 /* SDMajletCellHead.m */,
+			);
+			path = SDMajletManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +230,7 @@
 				TargetAttributes = {
 					28DF33E01ED816B7009C4344 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5W6GX84DS4;
 						ProvisioningStyle = Automatic;
 					};
 					28DF33F91ED816B7009C4344 = {
@@ -273,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DF341A1ED819E4009C4344 /* SDMajletView.m in Sources */,
 				28DF33EC1ED816B7009C4344 /* ViewController.m in Sources */,
 				28DF33E91ED816B7009C4344 /* AppDelegate.m in Sources */,
+				2804B0971EDE8CE20031CD10 /* SDMajletCellHead.m in Sources */,
+				28DF341D1ED91BFA009C4344 /* SDMajletCell.m in Sources */,
 				28DF33E61ED816B7009C4344 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W6GX84DS4;
 				INFOPLIST_FILE = SDMajletManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sand.SDMajletManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +462,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W6GX84DS4;
 				INFOPLIST_FILE = SDMajletManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sand.SDMajletManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +536,7 @@
 				28DF34101ED816B7009C4344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28DF34111ED816B7009C4344 /* Build configuration list for PBXNativeTarget "SDMajletManagerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +545,7 @@
 				28DF34131ED816B7009C4344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28DF34141ED816B7009C4344 /* Build configuration list for PBXNativeTarget "SDMajletManagerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +554,7 @@
 				28DF34161ED816B7009C4344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
